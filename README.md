@@ -28,23 +28,23 @@ All packages can be installed via `pip` if they are not already available.
 ## Map of the Repository
 
 Below is an outline of the repository structure and its contents:
-
 project-root/
-  -- SCRIPTS/
-      -- DS_4002_Project_1.ipynb
-  -- DATA/
-      -- yelp_academic_dataset_review.json
-      -- yelp_academic_dataset_business.json
-  -- OUTPUT/
-      -- figures/
-      -- tables/
-      -- processed/
-  -- README.md
-  -- LICENSE.md
+├─ SCRIPTS/
+│  ├─ DS_4002_Project_1.ipynb
+├─ DATA/
+│  └─ yelp_academic_dataset_review.json
+│  └─ yelp_academic_dataset_business.json
+│  └─ final_dataset.csv
+├─ OUTPUT/
+│  └─ figures/
+│  └─ tables/
+│  └─ process/
+├─ README.md
+└─ LICENSE.md
 
 ## Instructions for Reproducing Results
 
-To reproduce the results of our project, please run each cell in the DS 4002 Project 1 Jupyter Notebook (i.e. DS_4002_Project_1.ipynb) on a Google Colab Python3 runtime.
+To reproduce the results of our project, please run each cell in the DS 4002 Project 1 Jupyter Notebook (i.e. DS_4002_Project_1.ipynb) on a Google Colab Python3 runtime in the order indicated within the file.
 
 In the event the provided Jupyter Notebook fails to run, take the following steps to reproduce our results:
   1. Load yelp_academic_dataset_review.json (first 200,000 records only) and yelp_academic_dataset_business.json into the runtime as DataFrames.
@@ -60,4 +60,6 @@ In the event the provided Jupyter Notebook fails to run, take the following step
   11. For each record, explode the data set so that new records are created for each value in the cuisine column.
   12. Run an ANOVA using the cuisine column as the categories and the mismatch column as the values.
   13. Repeat steps 1 through 9. For each record with multiple values in the cuisine column, pick one value to keep at random. Repeat step 11.
+
+Note: final_dataset.csv is reference only and does not functionly replace either yelp_academic_dataset_review.json or yelp_academic_dataset_business.json in the provided notebook.
 
