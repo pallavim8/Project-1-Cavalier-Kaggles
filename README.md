@@ -17,6 +17,9 @@ The following Python packages are required to run the notebooks:
 - langdetect
 - googletrans-py
 - vaderSentiment
+- scipy
+- random
+- statsmodels
 
 All packages can be installed via `pip` if they are not already available.
 
@@ -31,9 +34,8 @@ Below is an outline of the repository structure and its contents:
 ├─ SCRIPTS/
 │  ├─ DS_4002_Project_1.ipynb
 ├─ DATA/
-│  └─ yelp_academic_dataset_review.json
-│  └─ yelp_academic_dataset_business.json
-│  └─ final_dataset.csv
+│  └─ DatasetDirections
+|  └─ DataAppendix.pdf
 ├─ OUTPUT/
 │  └─ figures/
 │  └─ tables/
