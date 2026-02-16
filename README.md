@@ -55,8 +55,8 @@ In the event the provided Jupyter Notebook fails to run, take the following step
   6. Translate any non-English review text.
   7. Drop any empty records or any records without a value in the cuisine column.
   8. Scale the star ratings for each record to a min-max range of 0-1. 
-  9. Generate a composite sentiment score for each record using the vaderSentiment package on the review text in English.
-  10. For each record, store the difference of the sentiment score and the scaled star rating in the direction column and the absolute value of the direction column in the mismatch column.
+  9. Generate a compound sentiment score for each record using the vaderSentiment package on the review text in English.
+  10. For each record, store the difference of the compound sentiment score and the scaled star rating in the direction column and the absolute value of the direction column in the mismatch column.
   11. For each record, explode the data set so that new records are created for each value in the cuisine column.
   12. Run an ANOVA using the cuisine column as the categories and the mismatch column as the values.
   13. Repeat steps 1 through 9. For each record with multiple values in the cuisine column, pick one value to keep at random. Repeat step 11.
