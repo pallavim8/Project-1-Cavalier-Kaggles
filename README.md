@@ -21,8 +21,8 @@ The following Python packages are required to run the notebooks:
 All packages can be installed via `pip` if they are not already available.
 
 ### Platform
-- Developed and tested on macOS  
-- Expected to run on Windows and Linux without modification  
+- Developed and tested on macOS and Windows operating systems
+- Expected to run on Linux without modification  
 
 ## Map of the Repository
 Below is an outline of the repository structure and its contents:
