@@ -30,21 +30,17 @@ All packages can be installed via `pip` if they are not already available.
 Below is an outline of the repository structure and its contents:
 
 project-root/
-|
-|-- SCRIPTS/
-| |-- DS_4002_Project_1.ipynb
-|
-|-- DATA/
-| |-- yelp_academic_dataset_review.json
-| |-- yelp_academic_dataset_business.json
-|
-|-- OUTPUT/
-| |-- figures/
-| |-- tables/
-| |-- processed/
-|
-|-- README.md
-|-- LICENSE.md
+  -- SCRIPTS/
+      -- DS_4002_Project_1.ipynb
+  -- DATA/
+      -- yelp_academic_dataset_review.json
+      -- yelp_academic_dataset_business.json
+  -- OUTPUT/
+      -- figures/
+      -- tables/
+      -- processed/
+  -- README.md
+  -- LICENSE.md
 
 ## Instructions for Reproducing Results
 
