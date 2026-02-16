@@ -65,5 +65,3 @@ In the event the provided Jupyter Notebook fails to run, take the following step
   12. Run an ANOVA using the cuisine column as the categories and the mismatch column as the values.
   13. Repeat steps 1 through 9. For each record with multiple values in the cuisine column, pick one value to keep at random. Repeat step 11.
 
-Note: final_dataset.csv is reference only and does not functionly replace either yelp_academic_dataset_review.json or yelp_academic_dataset_business.json in the provided notebook.
-
