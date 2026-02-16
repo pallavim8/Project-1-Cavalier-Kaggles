@@ -37,6 +37,10 @@ Below is an outline of the repository structure and its contents:
 ├─ OUTPUT/
 │  └─ figures/
 │  └─ tables/
+|     └─ bottom_five_cuisines_by_mismatch.csv
+|     └─ bottom_five_ethnic_cuisines_by_mismatch.csv
+|     └─ top_five_cuisines_by_mismatch.csv
+|     └─ top_five_ethnic_cuisines_by_mismatch.csv
 │  └─ process/
 ├─ README.md
 └─ LICENSE.md
