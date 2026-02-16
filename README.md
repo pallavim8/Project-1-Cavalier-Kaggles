@@ -26,7 +26,7 @@ All packages can be installed via `pip` if they are not already available.
 - Expected to run on Windows and Linux without modification  
 
 ## Map of the Repository
-
+'''text
 Below is an outline of the repository structure and its contents:
 project-root/
 ├─ SCRIPTS/
@@ -41,6 +41,7 @@ project-root/
 │  └─ process/
 ├─ README.md
 └─ LICENSE.md
+'''
 
 ## Instructions for Reproducing Results
 
