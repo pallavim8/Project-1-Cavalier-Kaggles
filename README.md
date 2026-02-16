@@ -28,8 +28,7 @@ All packages can be installed via `pip` if they are not already available.
 ## Map of the Repository
 Below is an outline of the repository structure and its contents:
 
-<pre><code>
-project-root/
+<pre><code>project-root/
 ├─ SCRIPTS/
 │  ├─ DS_4002_Project_1.ipynb
 ├─ DATA/
