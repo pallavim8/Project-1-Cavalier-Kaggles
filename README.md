@@ -2,7 +2,7 @@
 
 ## Repository Overview
 
-This repository contains all the code, data processing steps, exploratory analysis, and results for our project. The project examines how sentiment expressed in Yelp text reviews compares to numerical star ratings. The goal of the project is to identify and analyze consistent mismatches between text-based sentiment and ratings across different restaurant cuisines using data analysis and statistical testing.
+This repository contains all the code, data processing steps, exploratory analysis, and results for our project. The project examines how sentiment expressed in Yelp text reviews compares to corresponding numerical star ratings. The goal of the project is to identify and analyze consistent mismatches between text-based sentiment and corresponding star ratings across different restaurant cuisines using data analysis and statistical testing.
 
 ## Software and Platform
 
