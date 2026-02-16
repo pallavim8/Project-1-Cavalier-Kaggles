@@ -7,8 +7,7 @@ This repository contains all the code, data processing steps, exploratory analys
 ## Software and Platform
 
 ### Software
-- Python3  
-- Jupyter Notebook  
+We performed all data cleaning, data transformations, and analysis on a cloud-hosted Google Colab Jupyter Notebook on the latest Python3 runtime.
 
 ### Required Packages
 The following Python packages are required to run the notebooks:
