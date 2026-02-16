@@ -44,6 +44,7 @@ Below is an outline of the repository structure and its contents:
 |     └─ top_five_ethnic_cuisines_by_mismatch.csv
 ├─ README.md
 └─ LICENSE.md
+└─ Cavalier Kaggles - Project 1.pdf
 </code></pre>
 
 ## Instructions for Reproducing Results
