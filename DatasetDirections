@@ -14,4 +14,4 @@ Step 2: Download the Dataset
 Step 3: Run the Script
 1. Place the files in the appropriate folder
 2. Open and run the python script: DS_4002_Project_1.ipynb
-3. The notebook with filter and merge the review and business datasets
+3. The notebook will filter and merge the review and business datasets
